@@ -1,167 +1,199 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
 /* Styling for the h1 header */
 h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif; /* Use a clean, modern font */
-  font-size: 3rem;                    /* Large font size for emphasis */
-  font-weight: 700;                   /* Bold text */
-  color: black;                     /* Use a vibrant color to match the theme */
-  text-align: center;                 /* Center-align the header */
-  text-transform: uppercase;          /* Make all text uppercase */
-  letter-spacing: 0.05em;             /* Slight letter spacing for a spaced-out look */
-  margin-top: 2rem;                   /* Add margin to the top */
-  margin-bottom: 1.5rem;              /* Add some spacing below the header */
-  background-color: #f8f9fa;          /* Light background to make the text stand out */
-  padding: 1rem;                      /* Padding to create some breathing space */
-  border-radius: 10px;                /* Rounded corners for a soft look */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Use a clean, modern font */
+    font-size: 3rem;                    /* Large font size for emphasis */
+    font-weight: 700;                   /* Bold text */
+    color: black;                       /* Use a vibrant color to match the theme */
+    text-align: center;                 /* Center-align the header */
+    text-transform: uppercase;          /* Make all text uppercase */
+    letter-spacing: 0.05em;             /* Slight letter spacing for a spaced-out look */
+    margin-top: 2rem;                   /* Add margin to the top */
+    margin-bottom: 1.5rem;              /* Add some spacing below the header */
+    background-color: #f8f9fa;          /* Light background to make the text stand out */
+    padding: 1rem;                      /* Padding to create some breathing space */
+    border-radius: 10px;                /* Rounded corners for a soft look */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
 }
 
 /* Stylish Navbar */
 .navbar {
-  background-color: #343a40 !important; /* Dark background for a sleek look */
-  padding: 1rem; /* Add padding for a more spacious feel */
-  font-family: Georgia, 'Times New Roman', Times, serif  /* Use a clean, modern font */
-
+    background-color: #343a40 !important; /* Dark background for a sleek look */
+    padding: 1rem; /* Add padding for a more spacious feel */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Use a clean, modern font */
 }
 
 .navbar-brand {
-  font-size: 1.5rem;
-  color: #fff !important; /* Make the brand name stand out in white */
-  font-weight: bold;
-  letter-spacing: 0.05em; /* Slightly spaced out letters for branding */
-  font-family: Georgia, 'Times New Roman', Times, serif  /* Use a clean, modern font */
-
+    font-size: 1.5rem;
+    color: #fff !important; /* Make the brand name stand out in white */
+    font-weight: bold;
+    letter-spacing: 0.05em; /* Slightly spaced out letters for branding */
 }
 
 .navbar-nav .nav-link {
-  color: #f8f9fa !important; /* Ensure nav links are visible on dark background */
-  font-size: 1.1rem;
-  margin-right: 1rem; /* Add spacing between nav items */
-  transition: color 0.3s ease; /* Smooth transition effect */
+    color: #f8f9fa !important; /* Ensure nav links are visible on dark background */
+    font-size: 1.1rem;
+    margin-right: 1rem; /* Add spacing between nav items */
+    transition: color 0.3s ease; /* Smooth transition effect */
 }
 
 .navbar-nav .nav-link:hover {
-  color: #ffc107 !important; /* Highlight links with a golden color on hover */
-  text-decoration: underline;
+    color: #ffc107 !important; /* Highlight links with a golden color on hover */
+    text-decoration: underline;
 }
 
 .navbar-toggler {
-  border-color: rgba(255, 255, 255, 0.5); /* Add a subtle border to the toggle button */
+    border-color: rgba(255, 255, 255, 0.5); /* Add a subtle border to the toggle button */
 }
 
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .dropdown-menu {
-  background-color: #495057; /* Dark dropdown to match the navbar */
-  border: none;
-  border-radius: 0.25rem;
+    background-color: #495057; /* Dark dropdown to match the navbar */
+    border: none;
+    border-radius: 0.25rem;
 }
 
 .dropdown-item {
-  color: #f8f9fa;
+    color: #f8f9fa;
 }
 
 .dropdown-item:hover {
-  background-color: #6c757d; /* Change background on hover */
-  color: #ffc107; /* Highlight text on hover */
+    background-color: #6c757d; /* Change background on hover */
+    color: #ffc107; /* Highlight text on hover */
 }
 
 /* Form Styling */
 .form-inline .form-control {
-  border-radius: 1.25rem; /* Rounded search input */
-  padding-left: 1rem;
-  margin-right: 0.5rem;
+    border-radius: 1.25rem; /* Rounded search input */
+    padding-left: 1rem;
+    margin-right: 0.5rem;
 }
 
 .form-inline .btn-outline-success {
-  border-color: #ffc107;
-  color: #ffc107;
-  border-radius: 1.25rem;
+    border-color: #ffc107;
+    color: #ffc107;
+    border-radius: 1.25rem;
 }
 
 .form-inline .btn-outline-success:hover {
-  background-color: #ffc107;
-  color: #343a40; /* Invert colors on hover */
+    background-color: #ffc107;
+    color: #343a40; /* Invert colors on hover */
 }
-.cards-container {
-  padding: 2rem;
-  width: 100vw;
-  display: flex;
-  gap: 5rem;
-  justify-content: center;
-  flex-wrap: wrap;
-  font-family: Georgia, 'Times New Roman', Times, serif  /* Use a clean, modern font */
 
+/* Cards Container */
+.cards-container {
+    padding: 2rem;
+    width: 100vw;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Use a clean, modern font */
 }
 
 .card {
-  text-align: center;
-  border: 1px solid black;
-  
+    text-align: center;
+    border: 1px solid black;
+    transition: transform 0.3s;
 }
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styles */
 footer {
-  background-color: #f8f9fa;
-  font-family: Georgia, 'Times New Roman', Times, serif  /* Use a clean, modern font */
+    background-color: #f8f9fa;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Use a clean, modern font */
+}
 
+.links {
+    margin-right: auto;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Use a clean, modern font */
 }
-.links{
-  margin-right: auto;
-  margin-left: 15px;
-  margin-bottom: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif  /* Use a clean, modern font */
 
+.links a {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    display: block;
 }
-.links a{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  color: black;
-  display: block;
+
+.logos {
+    margin-right: 15px;
 }
-.logos{
-  margin-right: 15px;
+
+.links p, .logos p {
+    font-size: 25px;
+    color: rgb(200, 33, 200);
 }
-.links p ,.logos p{
-  font-size: 25px;
-  color: rgb(200, 33, 200);
-}
+
 .info p {
-  text-align: center;
-  font-family: "Nunito", sans-serif;
-  padding: 5px;
-  color: rgb(200, 33, 200);
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    padding: 5px;
+    color: rgb(200, 33, 200);
 }
 
 .logos a {
-  height: 50px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  background: rgb(24, 25, 26);
-  color: white;
-  border-radius: 50%;
-  line-height: 47px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    background: rgb(24, 25, 26);
+    color: white;
+    border-radius: 50%;
+    line-height: 47px;
 }
-.bottom{
-  display: flex;
-  margin-bottom: 10px;
-  border-bottom: 1px solid black;
+
+.bottom {
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
 }
-.links a:hover{
-text-decoration: underline;
+
+.links a:hover {
+    text-decoration: underline;
 }
+
 /* Button Hover Effect */
 .btn-primary {
-  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for background and transform */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for background and transform */
 }
 
 .btn-primary:hover {
-  background-color: #0056b3; /* Darker shade for hover effect */
-  transform: scale(1.05); /* Slightly enlarge the button */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    background-color: #0056b3; /* Darker shade for hover effect */
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom {
+        flex-direction: column;
+    }
 }
