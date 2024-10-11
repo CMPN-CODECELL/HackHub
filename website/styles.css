@@ -155,7 +155,6 @@ footer {
 .links a:hover{
 text-decoration: underline;
 }
-
 /* Button Hover Effect */
 .btn-primary {
   transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for background and transform */
