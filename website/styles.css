@@ -197,3 +197,9 @@ footer {
         flex-direction: column;
     }
 }
+
+.card {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 8px;
+}
