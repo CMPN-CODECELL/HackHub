@@ -203,3 +203,31 @@ footer {
   border: none;
   border-radius: 8px;
 }
+
+.bg-light {
+    background-color: #343a40 !important;
+    color: #f8f9fa !important;
+  }
+  .info-class {
+    background-color: #343a40;
+   
+    color: #f8f9fa;
+    padding: 20px;
+    
+    margin-top: 20px;
+  }
+  #about {
+    background-color: #6c757d;
+    color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  .cards-container{
+    background-color:#FFFAFA;
+  }
+  .text-center.my-4{
+    background-color:#FFFAFA;
+    border-radius: 8px;
+
+  }
