@@ -197,3 +197,26 @@ footer {
         flex-direction: column;
     }
 }
+
+.about{
+    background-color: rgb(14,14,87);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f8f9fa;
+    font-size: 1.2em;
+    font-family: "Nunito", sans-serif;
+    margin: 20px;
+
+}
+
+.about_heading{
+    color: #ffc107;
+    background-color: rgb(14,14,87);
+}
+
+h3{
+    color: rgb(253, 214, 130);
+}
+
+.text-center{
+    margin-top: 50px;
+}
