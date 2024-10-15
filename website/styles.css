@@ -94,7 +94,9 @@ h1 {
     background-color: #ffc107;
     color: #343a40; /* Invert colors on hover */
 }
-
+.title{
+    font-weight: bold;
+}
 /* Cards Container */
 .cards-container {
     padding: 2rem;
@@ -110,7 +112,10 @@ h1 {
     text-align: center;
     border: 1px solid black;
     transition: transform 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: fit-content;
 }
+
 
 .card:hover {
     transform: scale(1.05);
@@ -231,3 +236,26 @@ footer {
     border-radius: 8px;
 
   }
+=======
+.about{
+    background-color: rgb(14,14,87);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f8f9fa;
+    font-size: 1.2em;
+    font-family: "Nunito", sans-serif;
+    margin: 20px;
+
+}
+
+.about_heading{
+    color: #ffc107;
+    background-color: rgb(14,14,87);
+}
+
+h3{
+    color: rgb(253, 214, 130);
+}
+
+.text-center{
+    margin-top: 50px;
+}
