@@ -241,7 +241,7 @@ footer {
   background-color: #fffafa;
 }
 .text-center.my-4 {
-  background-color: #fffafa;
+  background-color: white;
   border-radius: 8px;
 }
 
@@ -282,4 +282,9 @@ a {
 a:hover {
   color: #08dcff;
   text-decoration: none;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
 }
