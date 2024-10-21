@@ -241,7 +241,7 @@ footer {
   background-color: #fffafa;
 }
 .text-center.my-4 {
-  background-color: #fffafa;
+  background-color: white;
   border-radius: 8px;
 }
 
@@ -283,6 +283,7 @@ a:hover {
   color: #08dcff;
   text-decoration: none;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 body {
@@ -377,3 +378,10 @@ strong {
 }
 =======
 >>>>>>> parent of 362dbb8 (Merge pull request #26 from Chief-Ayush/main)
+=======
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+>>>>>>> 362dbb8cb4f2ae001a7af7fbccb6977ef27ae06d
