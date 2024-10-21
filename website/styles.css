@@ -283,8 +283,105 @@ a:hover {
   color: #08dcff;
   text-decoration: none;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #00296b;
+  color: #011949;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+header {
+  background: #f7e0a5;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #fdc500 15px solid;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #002878;
+}
+
+.intro {
+  background: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-left: 5px solid #fdc500;
+}
+
+.intro,h1{
+  color: #012f91;
+}
+
+.contact-form {
+  background: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-left: 5px solid #f7b947;
+}
+
+.contact-form h2 {
+  margin-top: 0;
+  color: #003f88;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #00296b;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #b0c9e6;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #fdc500;
+  color: #00296b;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #ffd500;
+}
+
+strong {
+  color: #02299c;
+}
+=======
+>>>>>>> parent of 362dbb8 (Merge pull request #26 from Chief-Ayush/main)
+=======
 
 .logo {
   height: 80px;
   width: 80px;
 }
+>>>>>>> 362dbb8cb4f2ae001a7af7fbccb6977ef27ae06d
