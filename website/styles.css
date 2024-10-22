@@ -251,7 +251,10 @@ footer {
   color: #f8f9fa;
   font-size: 1.2em;
   font-family: "Nunito", sans-serif;
-  margin: 20px;
+}
+
+.about-section {
+  padding: 20px;
 }
 
 .about_heading {
@@ -283,10 +286,7 @@ a:hover {
   color: #08dcff;
   text-decoration: none;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-body {
+<<<<<<< HEAD <<<<<<< HEAD body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
@@ -302,16 +302,21 @@ body {
   padding: 20px;
 }
 
+.contact-us h1 {
+  background-color: white;
+}
+
 header {
   background: #f7e0a5;
   color: #ffffff;
-  padding-top: 30px;
+  padding-top: 24px;
   min-height: 70px;
   border-bottom: #fdc500 15px solid;
 }
 
 header h1 {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 24px;
   text-align: center;
   padding-bottom: 20px;
   color: #002878;
@@ -325,8 +330,13 @@ header h1 {
   border-left: 5px solid #fdc500;
 }
 
-.intro,h1{
+.intro,
+h1 {
   color: #012f91;
+}
+
+.intro strong {
+  color: #002168;
 }
 
 .contact-form {
@@ -348,7 +358,8 @@ header h1 {
   color: #00296b;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
@@ -374,14 +385,10 @@ header h1 {
 }
 
 strong {
-  color: #02299c;
+  color: #ffe565;
 }
-=======
->>>>>>> parent of 362dbb8 (Merge pull request #26 from Chief-Ayush/main)
-=======
 
 .logo {
   height: 80px;
   width: 80px;
 }
->>>>>>> 362dbb8cb4f2ae001a7af7fbccb6977ef27ae06d
