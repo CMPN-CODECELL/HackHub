@@ -55,7 +55,6 @@ h1 {
 
 .navbar-nav .nav-link:hover {
   color: #ffc107 !important; /* Highlight links with a golden color on hover */
-  text-decoration: underline;
 }
 
 .navbar-toggler {
@@ -104,6 +103,7 @@ h1 {
   color: #343a40; /* Invert colors on hover */
 }
 .title {
+  background-color: white;
   font-weight: bold;
 }
 /* Cards Container */
@@ -246,31 +246,36 @@ footer {
 }
 
 .about {
-  background-color: #042c54;
+  background-color: #f8f9fa;
   font-family: Arial, Helvetica, sans-serif;
-  color: #f8f9fa;
+  color: #042c54;
   font-size: 1.2em;
   font-family: "Nunito", sans-serif;
 }
 
 .about-section {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
   padding: 20px;
 }
 
 .about_heading {
-  color: #ffc107;
+  color: #012f91;
 }
 
 h1.about_heading {
-  background-color: #06417c;
+  background-color: white;
+  margin-bottom: 80px;
 }
 
 h2.about_heading {
-  color: #08dcff;
+  color: #fdc500;
+  font-weight: bold;
 }
 
 h3 {
-  color: rgb(253, 214, 130);
+  color: #012063;
 }
 
 .text-center {
@@ -283,7 +288,7 @@ a {
 }
 
 a:hover {
-  color: #08dcff;
+  color: #ffc107;
   text-decoration: none;
 }
 <<<<<<< HEAD <<<<<<< HEAD body {
