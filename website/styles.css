@@ -25,7 +25,7 @@ h1 {
     background-color: #f8f9fa;          /* Light background to make the text stand out */
     padding: 1rem;                      /* Padding to create some breathing space */
     border-radius: 10px;                /* Rounded corners for a soft look */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    /*box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); Add a subtle shadow for depth */
 }
 
 /* Stylish Navbar */
