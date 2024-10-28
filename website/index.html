@@ -17,9 +17,8 @@
 
 <body>
   <header>
-    <h1 class="text-center my-4">CODECELL, VESIT</h1>
+    <h1 class="title"><img class="logo" src="./images/Codecell Logo.png"\> CODECELL, VESIT</h1>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,10 +27,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact Us</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -43,9 +45,6 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
@@ -56,7 +55,7 @@
   </header>
   <div class="cards-container">
     <div class="card" style="width: 18rem">
-      <img class="card-img-top" src="/website/images/pankaj-profile-pic.jpg" alt="Card image cap" />
+      <img class="card-img-top" src="./images/pankaj-profile-pic.jpg" alt="Pankaj Gupta Profile pic" />
       <div class="card-body">
         <h5 class="card-title">Pankaj Gupta</h5>
         <p class="card-text">I am a passionate Full Stack Developer.</p>
@@ -65,12 +64,22 @@
     </div>
     <div class="card" style="width: 18rem">
       <img class="card-img-top"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/D%C3%BClmen%2C_Kirchspiel%2C_Dernekamp%2C_B%C3%A4ume_--_2021_--_9397.jpg/1280px-D%C3%BClmen%2C_Kirchspiel%2C_Dernekamp%2C_B%C3%A4ume_--_2021_--_9397.jpg"
+        src="./images/Tejas.png"
         alt="Card image cap" />
       <div class="card-body">
-        <h5 class="card-title">Your Name</h5>
-        <p class="card-text">Your intro - name,class,about you :)</p>
-        <a href="#" class="btn btn-primary">Link to my resume</a>
+        <h5 class="card-title">Tejas Gadge</h5>
+        <p class="card-text">A passionate Full Stack Flutter Developer</p>
+        <a href="https://tejasgadge-online.netlify.app" class="btn btn-primary">Link to my resume</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img class="card-img-top"
+        src="images/Ayush-Attarde.png"
+        alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Ayush Attarde</h5>
+        <p class="card-text">Tech Explorer, specialize in backend Development</p>
+        <a href="https://www.linkedin.com/in/ayush-attarde-3a394130a/" class="btn btn-primary">Link to my LinkedIn</a>
       </div>
     </div>
     <div class="card" style="width: 18rem">
@@ -91,35 +100,6 @@
         <h5 class="card-title">Your Name</h5>
         <p class="card-text">Your intro - name,class,about you :)</p>
         <a href="#" class="btn btn-primary">Link to my resume</a>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem">
-      <img class="card-img-top"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/D%C3%BClmen%2C_Kirchspiel%2C_Dernekamp%2C_B%C3%A4ume_--_2021_--_9397.jpg/1280px-D%C3%BClmen%2C_Kirchspiel%2C_Dernekamp%2C_B%C3%A4ume_--_2021_--_9397.jpg"
-        alt="Card image cap" />
-      <div class="card-body">
-        <h5 class="card-title">Your Name</h5>
-        <p class="card-text">Your intro - name,class,about you :)</p>
-        <a href="#" class="btn btn-primary">Link to my resume</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="container my-5">
-    <div class="row align-items-center">
-      <div class="col-md-8">
-        <h1>About Codecell</h1>
-        <p>
-          <code style="font-size: 1.2em;">
-            Welcome to <strong>Codecell VESIT</strong>, where the pursuit of knowledge knows no bounds. Here, we embrace
-            a culture of <strong>continuous learning</strong> and <strong>personal growth</strong>. With a strong
-            emphasis on <strong>coding and technology</strong>, we're not just shaping students; we're nurturing the
-            innovators of tomorrow. Join us on this extraordinary journey of discovery and achievement.
-          </code>
-        </p>
-      </div>
-      <div class="col-md-4 text-right">
-        <img src="images/cc.png" alt="Codecell Logo" class="img-fluid" />
       </div>
     </div>
   </div>
@@ -142,6 +122,38 @@
             <a href="#" class="fa fa-brands fa-linkedin fa-2xl mx-2"></a>
             <a href="#" class="fa fa-brands fa-instagram fa-2xl mx-2"></a>
             <a href="#" class="fa fa-brands fa-github fa-2xl mx-2"></a>
+
+  <div class="info-class">
+    <h1 id="about">About Codecell</h1>
+    <p><code style="font-size: 1.2em;">
+        Welcome to <strong>Codecell VESIT</strong> , where the pursuit of knowledge knows no bounds. Here, we embrace a culture of <strong>continuous learning </strong> and <strong>personal growth </strong>. With a strong emphasis on <strong>coding and technology </strong>, we're not just shaping students we're nurturing the innovators of tomorrow. Join us on this extraordinary journey of discovery and achievement.
+      </p>
+    </div>
+    <footer class="bg-light text-dark py-4">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <h5>Links</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="./index.html">Home</a></li>
+                      <li><a href="./about.html">About</a></li>
+                      <li><a href="./ticket.html">Blog</a></li>
+                      <li><a href="./contact.html">Contact Us</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-6 text-right">
+                  <h5>Connect With Us!</h5>
+                  <div>
+                      <a href="https://www.linkedin.com/company/vesit-tinkers-codecell-computer-department/" class="fa fa-brands fa-linkedin fa-2xl mx-2"></a>
+                      <a href="https://github.com/CMPN-CODECELL/CodingBonanza" class="fa fa-brands fa-github fa-2xl mx-2"></a>
+                      <a href="#" class="fa fa-brands fa-x-twitter fa-2xl mx-2"></a>
+                      <a href="https://www.instagram.com/codecell_vesit/" class="fa-brands fa-instagram fa-2xl mx-2"></a>
+                      <a href="https://www.youtube.com/@CodeCellVESIT" class="fa-brands fa-youtube fa-2xl mx-2"></a>
+                  </div>
+              </div>
+          </div>
+          <div class="text-center mt-3">
+              <p>© 2023 All Rights Reserved by VESIT</p>
           </div>
         </div>
       </div>

@@ -1,18 +1,23 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 
 /* General styles */
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
-    color: #333;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+code {
+  color: #dcd528;
 }
 
 /* Styling for the h1 header */
 h1 {
+
     font-family: Georgia, 'Times New Roman', Times, serif; /* Use a clean, modern font */
     font-size: 3rem;                    /* Large font size for emphasis */
     font-weight: 700;                   /* Bold text */
@@ -25,164 +30,372 @@ h1 {
     background-color: #f8f9fa;          /* Light background to make the text stand out */
     padding: 1rem;                      /* Padding to create some breathing space */
     border-radius: 10px;                /* Rounded corners for a soft look */
-    /*box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); Add a subtle shadow for depth */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /*Add a subtle shadow for depth */
+
 }
 
 /* Stylish Navbar */
 .navbar {
-    background-color: #343a40 !important; /* Dark background for a sleek look */
-    padding: 1rem; /* Add padding for a more spacious feel */
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Use a clean, modern font */
+  background-color: #042c54 !important; /* Dark background for a sleek look */
+  padding: 1rem; /* Add padding for a more spacious feel */
+  font-family: Georgia, "Times New Roman", Times, serif; /* Use a clean, modern font */
 }
 
 .navbar-brand {
-    font-size: 1.5rem;
-    color: #fff !important; /* Make the brand name stand out in white */
-    font-weight: bold;
-    letter-spacing: 0.05em; /* Slightly spaced out letters for branding */
+  font-size: 1.5rem;
+  color: #fff !important; /* Make the brand name stand out in white */
+  font-weight: bold;
+  letter-spacing: 0.05em; /* Slightly spaced out letters for branding */
 }
 
 .navbar-nav .nav-link {
-    color: #f8f9fa !important; /* Ensure nav links are visible on dark background */
-    font-size: 1.1rem;
-    margin-right: 1rem; /* Add spacing between nav items */
-    transition: color 0.3s ease; /* Smooth transition effect */
+  color: #f8f9fa !important; /* Ensure nav links are visible on dark background */
+  font-size: 1.1rem;
+  margin-right: 1rem; /* Add spacing between nav items */
+  transition: color 0.3s ease; /* Smooth transition effect */
 }
 
 .navbar-nav .nav-link:hover {
-    color: #ffc107 !important; /* Highlight links with a golden color on hover */
-    text-decoration: underline;
+  color: #ffc107 !important; /* Highlight links with a golden color on hover */
 }
 
 .navbar-toggler {
-    border-color: rgba(255, 255, 255, 0.5); /* Add a subtle border to the toggle button */
+  border-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Add a subtle border to the toggle button */
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .dropdown-menu {
-    background-color: #495057; /* Dark dropdown to match the navbar */
-    border: none;
-    border-radius: 0.25rem;
+  background-color: #495057; /* Dark dropdown to match the navbar */
+  border: none;
+  border-radius: 0.25rem;
 }
 
 .dropdown-item {
-    color: #f8f9fa;
+  color: #f8f9fa;
 }
 
 .dropdown-item:hover {
-    background-color: #6c757d; /* Change background on hover */
-    color: #ffc107; /* Highlight text on hover */
+  background-color: #6c757d; /* Change background on hover */
+  color: #ffc107; /* Highlight text on hover */
 }
 
 /* Form Styling */
 .form-inline .form-control {
-    border-radius: 1.25rem; /* Rounded search input */
-    padding-left: 1rem;
-    margin-right: 0.5rem;
+  border-radius: 1.25rem; /* Rounded search input */
+  padding-left: 1rem;
+  margin-right: 0.5rem;
 }
 
 .form-inline .btn-outline-success {
-    border-color: #ffc107;
-    color: #ffc107;
-    border-radius: 1.25rem;
+  border-color: #ffc107;
+  color: #ffc107;
+  border-radius: 1.25rem;
 }
 
 .form-inline .btn-outline-success:hover {
-    background-color: #ffc107;
-    color: #343a40; /* Invert colors on hover */
+  background-color: #ffc107;
+  color: #343a40; /* Invert colors on hover */
 }
-
+.title {
+  background-color: white;
+  font-weight: bold;
+}
 /* Cards Container */
 .cards-container {
-    padding: 2rem;
-    width: 100vw;
-    display: flex;
-    gap: 5rem;
-    justify-content: center;
-    flex-wrap: wrap;
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Use a clean, modern font */
+  padding: 2rem;
+  width: 100vw;
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: Georgia, "Times New Roman", Times, serif; /* Use a clean, modern font */
 }
 
 .card {
-    text-align: center;
-    border: 1px solid black;
-    transition: transform 0.3s;
+  text-align: center;
+  border: 1px solid black;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: fit-content;
 }
 
 .card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /* Footer styles */
 footer {
-    background-color: #f8f9fa;
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Use a clean, modern font */
+  background-color: #f8f9fa;
+  font-family: Georgia, "Times New Roman", Times, serif; /* Use a clean, modern font */
 }
 
 .links {
-    margin-right: auto;
-    margin-left: 15px;
-    margin-bottom: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Use a clean, modern font */
+  margin-right: auto;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif; /* Use a clean, modern font */
 }
 
 .links a {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: black;
-    display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  display: block;
 }
 
 .logos {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
-.links p, .logos p {
-    font-size: 25px;
-    color: rgb(200, 33, 200);
+.links p,
+.logos p {
+  font-size: 25px;
+  color: rgb(200, 33, 200);
 }
 
 .info p {
-    text-align: center;
-    font-family: "Nunito", sans-serif;
-    padding: 5px;
-    color: rgb(200, 33, 200);
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  padding: 5px;
+  color: rgb(200, 33, 200);
 }
 
 .logos a {
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    background: rgb(24, 25, 26);
-    color: white;
-    border-radius: 50%;
-    line-height: 47px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  background: rgb(24, 25, 26);
+  color: white;
+  border-radius: 50%;
+  line-height: 47px;
 }
 
 .bottom {
-    display: flex;
-    margin-bottom: 10px;
-    border-bottom: 1px solid black;
+  display: flex;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
 }
 
 .links a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+/* Button Hover Effect */
+.btn-primary {
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for background and transform */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+  transform: scale(1.05); /* Slightly enlarge the button */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
-    .cards-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .bottom {
-        flex-direction: column;
-    }
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottom {
+    flex-direction: column;
+  }
+}
+
+.card {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 8px;
+}
+
+.bg-light {
+  background-color: #042c54 !important;
+  color: #f8f9fa !important;
+}
+.info-class {
+  background-color: #042c54;
+
+  color: #f8f9fa;
+  padding: 20px;
+
+  margin-top: 20px;
+}
+#about {
+  background-color: #064f98;
+  color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.cards-container {
+  background-color: #fffafa;
+}
+.text-center.my-4 {
+  background-color: white;
+  border-radius: 8px;
+}
+
+.about {
+  background-color: #f8f9fa;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #042c54;
+  font-size: 1.2em;
+  font-family: "Nunito", sans-serif;
+}
+
+.about-section {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.about_heading {
+  color: #012f91;
+}
+
+h1.about_heading {
+  background-color: white;
+  margin-bottom: 80px;
+}
+
+h2.about_heading {
+  color: #fdc500;
+  font-weight: bold;
+}
+
+h3 {
+  color: #012063;
+}
+
+.text-center {
+  margin-top: 50px;
+}
+
+a {
+  color: white;
+  transition: ease all 200ms;
+}
+
+a:hover {
+  color: #ffc107;
+  text-decoration: none;
+}
+HEAD body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #00296b;
+  color: #011949;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.contact-us h1 {
+  background-color: white;
+}
+
+header {
+  background: #f7e0a5;
+  color: #ffffff;
+  padding-top: 24px;
+  min-height: 70px;
+  border-bottom: #fdc500 15px solid;
+}
+
+header h1 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #002878;
+}
+
+.intro {
+  background: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-left: 5px solid #fdc500;
+}
+
+.intro,
+h1 {
+  color: #012f91;
+}
+
+.intro strong {
+  color: #002168;
+}
+
+.contact-form {
+  background: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-left: 5px solid #f7b947;
+}
+
+.contact-form h2 {
+  margin-top: 0;
+  color: #003f88;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #00296b;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #b0c9e6;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #fdc500;
+  color: #00296b;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #ffd500;
+}
+
+strong {
+  color: #ffe565;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
 }
