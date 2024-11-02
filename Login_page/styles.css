@@ -102,3 +102,69 @@ body{
 .register-link p a:hover{
   text-decoration: underline;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(bg.jpg) no-repeat center/cover;
+}
+
+.wrapper {
+  width: 420px;
+  padding: 30px 40px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 80%;
+    padding: 20px;
+  }
+  
+  .wrapper h1 {
+    font-size: 28px;
+  }
+
+  .input-box input {
+    padding: 15px 40px 15px 15px;
+    font-size: 15px;
+  }
+
+  .btn {
+    height: 40px;
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .wrapper {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .wrapper h1 {
+    font-size: 24px;
+  }
+
+  .input-box input {
+    padding: 12px 35px 12px 15px;
+    font-size: 14px;
+  }
+
+  .remember-forgot {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .btn {
+    height: 38px;
+    font-size: 14px;
+  }
+
+  .register-link {
+    font-size: 13px;
+  }
+}
